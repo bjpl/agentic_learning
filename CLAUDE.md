@@ -1,5 +1,24 @@
+# Claude Code Configuration - Agentic Learning Project
+
+> **AUTO-LOADED BY CLAUDE CODE**
+> This file contains mandatory agent directives and project-specific configuration.
+> All content is automatically available in every Claude Code session.
+
+---
+
+## Table of Contents
+
+1. [Mandatory Agent Operating Instructions](#mandatory-agent-operating-instructions) (Lines 18-189)
+2. [Project-Specific Configuration](#project-specific-configuration) (Lines 191+)
+   - Flow Nexus Integration
+   - Available Tools & Agents
+   - Setup Instructions
+
+---
+
 ════════════════════════════════════════════════════════
-    AGENT OPERATING INSTRUCTIONS
+    MANDATORY AGENT OPERATING INSTRUCTIONS
+    UNIVERSAL - APPLIES TO ALL WORK IN THIS PROJECT
     ALL DIRECTIVES ARE MANDATORY - STRICT COMPLIANCE
 ════════════════════════════════════════════════════════
 
@@ -171,12 +190,17 @@
 → Prevent debt from compounding unchecked
 
 ════════════════════════════════════════════════════════
-    END INSTRUCTIONS - COMPLIANCE REQUIRED
+    END MANDATORY INSTRUCTIONS - COMPLIANCE REQUIRED
 ════════════════════════════════════════════════════════
 
 ---
 
-# Claude Code Configuration - Flow Nexus Integration
+════════════════════════════════════════════════════════
+    PROJECT-SPECIFIC CONFIGURATION
+    REFERENCE MATERIAL & AVAILABLE TOOLS
+════════════════════════════════════════════════════════
+
+# Flow Nexus Integration
 
 ## 🌐 Flow Nexus Cloud Platform
 
@@ -292,4 +316,27 @@ Flow Nexus seamlessly integrates with Claude Code through MCP (Model Context Pro
 
 ---
 
-**Ready to build with Flow Nexus? Start with authentication and explore the cloud-powered AI development platform!**
+## Project Context
+
+**Project Name**: Agentic Learning Framework
+**Primary Focus**: Implementing Prometheus v5 monitoring and learning paradigms
+**Tech Stack**: JavaScript/Node.js, Python, Claude Flow, Flow Nexus
+**Development Stage**: Initial setup and documentation phase
+
+**Key Directories**:
+- `01_research/` - Research documentation and theory
+- `02_paradigms/` - Core paradigm definitions
+- `03_strategies/` - Implementation strategies
+- `04_implementations/` - Reference implementations (Prometheus, Alexandria, Cognitive OS)
+- `05_deployment/` - Deployment guides (mobile, desktop, web)
+- `daily_reports/` - Development activity reports
+
+**Compliance Notes**:
+- All work must follow the 25 mandatory directives above
+- Use Flow Nexus MCP tools for orchestration (per MANDATORY-6)
+- Commit frequently with detailed messages (per MANDATORY-3)
+- Maintain professional communication style (per MANDATORY-2)
+
+---
+
+**END OF CLAUDE.MD - All content above is auto-loaded by Claude Code**
