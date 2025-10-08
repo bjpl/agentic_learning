@@ -19,27 +19,54 @@
 
 ════════════════════════════════════════════════════════
     REQUIRED READING INSTRUCTIONS
-    CLAUDE MUST READ THESE FILES WHEN NEEDED
+    READ THESE FILES BEFORE RESPONDING TO SPECIFIC REQUESTS
 ════════════════════════════════════════════════════════
 
-**MANDATORY FILE READS**:
+**KEYWORD-TRIGGERED MANDATORY READS**:
 
-When explaining or applying mandatory directives → READ:
-  `docs/AGENT_INSTRUCTIONS_REFERENCE.md`
-  (Contains detailed examples, rationale, and implementation notes)
+BEFORE responding to requests containing these keywords, READ the specified file FIRST:
 
-When using Flow Nexus, MCP tools, or SPARC methodology → READ:
-  `docs/TOOLS_REFERENCE.md`
-  (Contains complete API reference, integration patterns, troubleshooting)
+🔍 **Directive Explanations**
+Keywords: "explain MANDATORY", "why directive", "examples of", "how to apply"
+→ READ: `docs/AGENT_INSTRUCTIONS_REFERENCE.md` THEN respond
 
-When starting work on a new feature or task → READ:
-  `README.md` (if exists)
-  Relevant files in `01_research/`, `02_paradigms/`, `03_strategies/`
+🔧 **Tool Usage**
+Keywords: "create sandbox", "deploy swarm", "mcp__flow-nexus", "npx claude-flow", "SPARC"
+→ READ: `docs/TOOLS_REFERENCE.md` THEN respond
 
-When reviewing project history or context → READ:
-  `daily_reports/YYYY-MM-DD.md` (for specific dates)
+📋 **Feature Implementation**
+Keywords: "implement", "build feature", "start working on", "create new"
+→ READ: `README.md` + relevant files in `01_research/`, `02_paradigms/`, `03_strategies/` THEN respond
 
-**DO NOT SKIP THESE READS** - They contain critical context not in this file.
+📊 **History Review**
+Keywords: "what happened on", "show commits for", "daily report", "project history"
+→ READ: `daily_reports/YYYY-MM-DD.md` THEN respond
+
+**ENFORCEMENT**: Do the read FIRST, then formulate response. Not optional.
+
+---
+
+## Quick Reference: Essential Info
+
+### Core Directives (Condensed)
+**Most Critical (Read These Now)**:
+- MANDATORY-1: Explain all actions in detail (what, why, expected outcome, context)
+- MANDATORY-2: Professional tone - no sycophancy, be direct, point out issues
+- MANDATORY-3: Commit frequently with detailed messages
+- MANDATORY-5: Ask questions when unclear/ambiguous/multiple paths
+- MANDATORY-7: Error handling with clear messages, never fail silently
+- MANDATORY-9: Never commit secrets, use env vars, sanitize inputs
+
+**For Full Details**: See sections below or READ `docs/AGENT_INSTRUCTIONS_REFERENCE.md`
+
+### Core Tools (Condensed)
+**Flow Nexus MCP Tools**:
+- `mcp__flow-nexus__user_login({email, password})` - Authenticate
+- `mcp__flow-nexus__swarm_init({topology, maxAgents})` - Initialize swarm
+- `mcp__flow-nexus__sandbox_create({template, name})` - Create sandbox
+- `mcp__flow-nexus__task_orchestrate({task, strategy})` - Orchestrate work
+
+**For Complete API**: READ `docs/TOOLS_REFERENCE.md`
 
 ---
 
@@ -365,9 +392,11 @@ Flow Nexus seamlessly integrates with Claude Code through MCP (Model Context Pro
 - Maintain professional communication style (per MANDATORY-2)
 
 **Required Reading Protocol**:
+- KEYWORD MATCH = MANDATORY READ (see lines 27-42)
 - Before explaining directives → Read `docs/AGENT_INSTRUCTIONS_REFERENCE.md`
 - Before using tools → Read `docs/TOOLS_REFERENCE.md`
 - When in doubt → Read relevant project documentation files
+- Use Quick Reference (lines 46-60) for common operations
 
 ---
 
