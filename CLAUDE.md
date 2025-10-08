@@ -8,11 +8,38 @@
 
 ## Table of Contents
 
-1. [Mandatory Agent Operating Instructions](#mandatory-agent-operating-instructions) (Lines 18-189)
-2. [Project-Specific Configuration](#project-specific-configuration) (Lines 191+)
+1. [Required Reading Instructions](#required-reading-instructions) (Lines 18-30)
+2. [Mandatory Agent Operating Instructions](#mandatory-agent-operating-instructions) (Lines 32-203)
+3. [Project-Specific Configuration](#project-specific-configuration) (Lines 205+)
    - Flow Nexus Integration
    - Available Tools & Agents
    - Setup Instructions
+
+---
+
+════════════════════════════════════════════════════════
+    REQUIRED READING INSTRUCTIONS
+    CLAUDE MUST READ THESE FILES WHEN NEEDED
+════════════════════════════════════════════════════════
+
+**MANDATORY FILE READS**:
+
+When explaining or applying mandatory directives → READ:
+  `docs/AGENT_INSTRUCTIONS_REFERENCE.md`
+  (Contains detailed examples, rationale, and implementation notes)
+
+When using Flow Nexus, MCP tools, or SPARC methodology → READ:
+  `docs/TOOLS_REFERENCE.md`
+  (Contains complete API reference, integration patterns, troubleshooting)
+
+When starting work on a new feature or task → READ:
+  `README.md` (if exists)
+  Relevant files in `01_research/`, `02_paradigms/`, `03_strategies/`
+
+When reviewing project history or context → READ:
+  `daily_reports/YYYY-MM-DD.md` (for specific dates)
+
+**DO NOT SKIP THESE READS** - They contain critical context not in this file.
 
 ---
 
@@ -336,6 +363,11 @@ Flow Nexus seamlessly integrates with Claude Code through MCP (Model Context Pro
 - Use Flow Nexus MCP tools for orchestration (per MANDATORY-6)
 - Commit frequently with detailed messages (per MANDATORY-3)
 - Maintain professional communication style (per MANDATORY-2)
+
+**Required Reading Protocol**:
+- Before explaining directives → Read `docs/AGENT_INSTRUCTIONS_REFERENCE.md`
+- Before using tools → Read `docs/TOOLS_REFERENCE.md`
+- When in doubt → Read relevant project documentation files
 
 ---
 
