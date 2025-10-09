@@ -2,69 +2,40 @@
 
 ## 📚 Documentation Structure
 
-### [Concepts](./concepts/)
+### Paradigm Definitions
 Theoretical foundations and paradigm definitions
-- [All 15 Paradigms](./concepts/paradigms.md)
-- [Consciousness Evolution](./concepts/consciousness-evolution.md)
-- [Core Paradigms Data](./concepts/core-paradigms.json)
-- [Akashic Interface](./concepts/akashic-interface.md)
+- See `../02_paradigms/definitions/` for all 15 paradigm specifications
 
-### [Implementations](./implementations/)
+### Implementation References
 Complete system designs and deployment guides
+- See `../04_implementations/` for Prometheus, CognitiveOS, and Alexandria
 
-#### Prometheus - Personal Learning Companion
-- [Experience Design](./implementations/prometheus-experience.md)
-- **Timeline**: 2-3 weeks
-- **Cost**: $0-50/month
-- **Best for**: Individual learners
+### Research & Strategy
+- **Research**: `../01_research/` - Scientific foundations
+- **Strategies**: `../03_strategies/` - Implementation approaches
+- **Deployment**: `../05_deployment/` - Deployment guides
 
-#### CognitiveOS - Cloud-Native Platform
-- [User Experience](./implementations/cognitive-os-ux.md)
-- **Timeline**: 1-2 months
-- **Cost**: $100-500/month
-- **Best for**: Global platforms
-
-#### Alexandria - Enterprise Ecosystem
-- [Interface Design](./implementations/alexandria-interface.md)
-- **Timeline**: 1 month
-- **Cost**: $50-200/month
-- **Best for**: Organizations
-
-#### [Solo Developer Plan](./implementations/solo-developer-plan.md)
-Complete guide for building with AI assistance
-
-### [Guides](./guides/)
-Practical tutorials and use cases
-- [Real-World Applications](./guides/real-world-applications.md)
-  - Language Learning
-  - Creative Arts
-  - Emotional Intelligence
-  - Philosophy
-  - Cooking
-  - History
-
-### [API](./api/)
-Technical reference documentation
-- Flow Nexus Integration
-- Paradigm APIs
-- Agent Communication Protocols
+### Technical Resources
+- **API Documentation**: See `/docs/api/` at project root
+- **Flow Nexus Resources**: `../07_resources/flow_nexus/`
+- **Real-World Applications**: `../07_resources/guides/real_world_applications.md`
 
 ## 🚀 Quick Links
 
 ### For Developers
-1. Start with [Solo Developer Plan](./implementations/solo-developer-plan.md)
-2. Review [Architecture](../src/core/inter-paradigm-protocol.py)
-3. Check [Flow Nexus Resources](../FLOW_NEXUS_RESOURCES.md)
+1. Start with `../04_implementations/solo_developer_plan.md`
+2. Review paradigm definitions in `../02_paradigms/definitions/`
+3. Check implementation references in `../04_implementations/`
 
 ### For Users
-1. Understand [Paradigms](./concepts/paradigms.md)
-2. Explore [Learning Scenarios](./guides/real-world-applications.md)
-3. Track [Consciousness Evolution](./concepts/consciousness-evolution.md)
+1. Understand paradigms: `../02_paradigms/definitions/`
+2. Explore applications: `../07_resources/guides/real_world_applications.md`
+3. Review consciousness evolution: `../02_paradigms/definitions/consciousness_evolution.md`
 
 ### For Organizations
-1. Review [Alexandria](./implementations/alexandria-interface.md)
+1. Review Alexandria: `../04_implementations/alexandria/`
 2. Calculate ROI with metrics
-3. Plan deployment strategy
+3. Plan deployment: `../05_deployment/`
 
 ## 📖 Reading Order
 
@@ -89,14 +60,12 @@ Technical reference documentation
 ## 🔧 Technical Documentation
 
 ### Architecture
-- [Inter-Paradigm Protocol](../src/core/inter-paradigm-protocol.py)
-- [Fractal Hologram Implementation](../src/paradigms/fractal-hologram.py)
+- Paradigm protocols: `../02_paradigms/protocols/` (when implemented)
+- Implementation examples: `../04_implementations/`
 
 ### Flow Nexus Integration
-- [All Resources](../FLOW_NEXUS_RESOURCES.md)
-- Sandboxes created
-- Workflows defined
-- Neural clusters
+- Resources: `../07_resources/flow_nexus/FLOW_NEXUS_RESOURCES.md`
+- Documentation: See `/docs/api/` at project root
 
 ### Configuration
 - Environment variables
@@ -153,5 +122,5 @@ When adding documentation:
 
 ---
 
-*Last updated: [Current Date]*
+*Last updated: 2025-10-08*
 *Documentation version: 0.1.0*

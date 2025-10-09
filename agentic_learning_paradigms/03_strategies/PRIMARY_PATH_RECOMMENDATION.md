@@ -314,8 +314,8 @@ npm init -y
 2. **Initialize Flow Nexus**
 ```javascript
 mcp__flow-nexus__user_login({
-  email: "brandon.lambert87@gmail.com",
-  password: "your_password"
+  email: "your-email@example.com",
+  password: "your-password"
 })
 
 mcp__flow-nexus__swarm_init({

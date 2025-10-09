@@ -361,5 +361,8 @@ mcp__flow-nexus__sandbox_create({
 
 ---
 
-**Last Updated**: 2025-10-07
+**Last Updated**: 2025-10-08
 **Status**: Reference documentation for project tools and infrastructure
+
+> **Note**: For consolidated Flow Nexus documentation, see also `CLAUDE.md` lines 273-386.
+> This reference provides detailed tool examples and usage patterns.

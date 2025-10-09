@@ -51,15 +51,26 @@ Keywords: "what happened on", "show commits for", "daily report", "project histo
 ## Quick Reference: Essential Info
 
 ### Core Directives (Condensed)
-**Most Critical (Read These Now)**:
-- MANDATORY-1: Explain all actions in detail (what, why, expected outcome, context)
-- MANDATORY-2: Professional tone - no sycophancy, be direct, point out issues
-- MANDATORY-3: Commit frequently with detailed messages
-- MANDATORY-5: Ask questions when unclear/ambiguous/multiple paths
-- MANDATORY-7: Error handling with clear messages, never fail silently
-- MANDATORY-9: Never commit secrets, use env vars, sanitize inputs
 
-**For Full Details**: See sections below or READ `docs/AGENT_INSTRUCTIONS_REFERENCE.md`
+**Critical (Always Apply)**:
+- MANDATORY-1: Explain all actions (what, why, outcome, context)
+- MANDATORY-2: Professional tone (no sycophancy, direct, candid)
+- MANDATORY-3: Commit frequently with detailed messages
+- MANDATORY-5: Ask questions when unclear/ambiguous
+- MANDATORY-6: MCP for coordination, Task tool for execution
+- MANDATORY-7: Error handling (clear messages, never fail silently)
+- MANDATORY-9: Security (no secrets in commits, use env vars)
+
+**High Priority**:
+- MANDATORY-8: Testing (write tests before completion)
+- MANDATORY-10: Architecture (simple, modular, documented)
+- MANDATORY-11: Incremental delivery (small deployable increments)
+- MANDATORY-12: Documentation (update as features added)
+
+**Standard (Apply Consistently)**:
+- MANDATORY-13 through MANDATORY-25 (see full reference)
+
+**Complete Reference**: `docs/AGENT_INSTRUCTIONS_REFERENCE.md` (all 25 directives with examples)
 
 ### Core Tools (Condensed)
 **Flow Nexus MCP Tools**:
