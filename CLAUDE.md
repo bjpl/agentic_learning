@@ -36,11 +36,13 @@ Keywords: "create sandbox", "deploy swarm", "mcp__flow-nexus", "npx claude-flow"
 
 📋 **Feature Implementation**
 Keywords: "implement", "build feature", "start working on", "create new"
-→ READ: `README.md` + relevant files in `01_research/`, `02_paradigms/`, `03_strategies/` THEN respond
+→ READ: Root `README.md` + `agentic_learning_paradigms/README.md` + relevant files in `agentic_learning_paradigms/01_research/`, `agentic_learning_paradigms/02_paradigms/`, `agentic_learning_paradigms/03_strategies/` THEN respond
 
 📊 **History Review**
 Keywords: "what happened on", "show commits for", "daily report", "project history"
 → READ: `daily_reports/YYYY-MM-DD.md` THEN respond
+
+**PATH NOTE**: All paths above are relative to project root (`agentic_learning/`). When referencing paradigm-related content, use `agentic_learning_paradigms/` prefix.
 
 **ENFORCEMENT**: Do the read FIRST, then formulate response. Not optional.
 
