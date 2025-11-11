@@ -2,9 +2,17 @@
 
 > Revolutionary autodidactic learning system powered by AI agent orchestration and consciousness evolution paradigms
 
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/bjpl/agentic_learning)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Status](https://img.shields.io/badge/status-alpha-orange.svg)](https://github.com/bjpl/agentic_learning)
 [![Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-purple)](https://claude.com/claude-code)
 [![Flow Nexus](https://img.shields.io/badge/Powered%20by-Flow%20Nexus-blue)](https://github.com/ruvnet/flow-nexus)
+[![Node](https://img.shields.io/badge/Node-18+-green.svg)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
+
+**Status**: Alpha Development | **Version**: 0.1.0 | **Stack**: Node.js 18+, Python 3.11+, TypeScript, React
+
+**Last Updated**: 2025-10-08 | **Focus**: AI/ML learning systems with agent orchestration
 
 ---
 
